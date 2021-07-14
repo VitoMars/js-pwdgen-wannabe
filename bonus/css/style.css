@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* -------------------------------------------------- */
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: firebrick;
+}
+
+.carta {
+  position: relative;
+}
+
+#nome,
+#cognome,
+#sesso,
+#nascita {
+  position: absolute;
+  left: 220px;
+}
+
+#cognome {
+  top: 135px;
+}
+
+#nome {
+  top: 165px;
+}
+
+#nascita {
+  top: 203px;
+}
+
+#sesso {
+  top: 245px;
+}
